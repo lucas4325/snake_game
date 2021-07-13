@@ -1,6 +1,6 @@
 #                            SNAKE GAME
 
-#### Recriação do famoso jogo da cobrinha.
+#### Recriação do famoso jogo da cobrinha com javascript.
 
 | Arquivo    | Conteudo          |
 | ---------- | ----------------- |
