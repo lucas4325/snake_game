@@ -1,0 +1,50 @@
+body {
+    height: 95vh;
+    width: 95;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(1, 128, 1);
+}
+
+button {
+    position: absolute;
+    height: 50px;
+    width: 100px;
+    margin-right: -70%;
+    font-size: 20px;
+}
+
+@media (max-width:1050px) {
+    button {
+        margin-right: -75%;
+    }
+}
+
+@media (max-width:910px) {
+    button {
+        margin-right: -80%;
+    }
+}
+
+@media (max-width:810px) {
+    button {
+        margin: 0;
+        margin-top: 700px;
+    }
+}
+
+@media (max-width:560px) {
+    canvas{
+        width: 412px;
+        height: 412px;
+    }
+}
+
+@media (max-width:470px) {
+    canvas{
+        width: 350px;
+        height: 350px;
+    }
+}

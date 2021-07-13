@@ -80,4 +80,15 @@ function iniciarjogo(){
     snake.unshift(newHead)
 }
 
+function iniciar(){
+    snake = []
+    snake[0] = {
+        x : 8 * box,
+        y : 8 * box
+    }
+    direction = 'right'
+    clearInterval(jogo)
+    jogo = setInterval(iniciarjogo,120)
+}
+
 let jogo = setInterval(iniciarjogo,120)
